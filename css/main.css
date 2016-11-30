@@ -17,7 +17,6 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 /*Banner*/
   #logo-container img,
-  #content a{
   max-width: 491px;
   width: 100%;
   height: auto;
