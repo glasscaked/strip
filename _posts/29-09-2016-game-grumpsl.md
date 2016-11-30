@@ -4,7 +4,7 @@ title: "Game Grumps Animated"
 date: 29-09-2016
 ---
 
-<p style="font-size:15px">Hey you,
+<p style="font-size:15px">Hey you,</br></br>
 
 An animation I was commissioned to make for the Game Grumps just went live. Take a look!
 
