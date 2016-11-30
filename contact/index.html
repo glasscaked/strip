@@ -5,11 +5,16 @@ title: Contact
 
 	<div class="Contact">		
 					<h1>James Cunningham</h1>
-				<form method="POST" action="http://formspree.io/glasscaked@gmail.com">
-  <input name="email" placeholder="Your email" type="email"><br>
-  <textarea name="message" placeholder="Your message"></textarea><br>
-  <button type="submit">Send</button>
-</form>
+		var contactform =  document.getElementById('contactform');
+contactform.setAttribute('action', '//formspree.io/' + 'glasscaked@gmail.com
+$("#sendMessage").on("click", function() {
+    $.ajax({
+        url: "//formspree.io/glasscaked@gmail.com", 
+        method: "POST",
+        data: {message: "hello!"},
+        dataType: "json"
+    });
+});
 					<address>
 					<strong></strong><br>
 					Info<br>
