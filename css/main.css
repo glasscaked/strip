@@ -20,7 +20,8 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
   max-width: 491px;
   width: 100%;
   height: auto;
-  margin: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Blog */
