@@ -8,6 +8,11 @@ date: 29-09-2016
 
 An animation I was commissioned to make for the Game Grumps just went live. Take a look!
 
-<div style="text-align: center;"><iframe src="https://player.vimeo.com/video/193663043" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div style="text-align: center;"><div class="wrapper">
+    <div class="h_iframe">
+        <iframe height="2" width="2" src="https://player.vimeo.com/video/193663043" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+</div>
 
 </p>
