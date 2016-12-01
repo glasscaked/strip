@@ -38,6 +38,7 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
   position: relative;
   padding-bottom: 60%;
   height: 360px;
+  width: 640px;
 }
 
 .auto-resizable-iframe iframe {
