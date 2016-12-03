@@ -2,18 +2,20 @@
 <!--
 if (screen.width <= 699) {
 body { margin: auto; width: 100%;  max-width: 100%;}
+a { text-decoration: none; color: #999; }
+a:hover { text-decoration: underline; }
 }
 //-->
 </script>
 
 if (screen.width >= 699) {
 body { margin: auto; width: 50%;  max-width: 960px;}
+a { text-decoration: none; color: #999; }
+a:hover { text-decoration: underline; }
 }
 //-->
 </script>
 
-a { text-decoration: none; color: #999; }
-a:hover { text-decoration: underline; }
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
