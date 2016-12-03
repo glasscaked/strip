@@ -1,4 +1,17 @@
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+body { margin: auto; width: 100%;  max-width: 100%;}
+}
+//-->
+</script>
+
+if (screen.width <= 699) {
 body { margin: auto; width: 50%;  max-width: 960px;}
+}
+//-->
+</script>
+
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
