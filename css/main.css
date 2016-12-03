@@ -2,11 +2,11 @@ a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
 /*Mobile Scaling*/
-@media (min-width: 979px) {
+@media (min-width: 960px) {
 body { margin: auto; width: 50%;  max-width: 960px;}
 }
 
-@media (max-width: 978px) {
+@media (max-width: 959px) {
 body { margin: auto; width: 100%;  max-width: 100%;}
 	}
 
