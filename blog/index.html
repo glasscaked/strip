@@ -6,7 +6,7 @@ title: Blog | James Cunningham
 <ul class="posts">
 
   {% for post in site.posts %}
-   <h2><li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li></h2>
+   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
     
 </ul>
