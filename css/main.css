@@ -1,18 +1,15 @@
-body { margin: auto; width: 50%;  max-width: 960px;}
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
 /*Mobile Scaling*/
 @media (min-width: 979px) {
-	body {
-		margin-top:40px;
-	}
+body { margin: auto; width: 50%;  max-width: 960px;}
 }
 
 @media (max-width: 978px) {
-body { margin: auto; width: 50%;  max-width: 960px;}
+body { margin: auto; width: 100%;  max-width: 100%;}
 	}
-}
+
 
 /*Fonts*/
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
