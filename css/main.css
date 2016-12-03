@@ -31,15 +31,6 @@ h1{
 }
 
 /*h2*/
-@media (min-width: 978px) {
-body { margin: auto; width: 50%;  max-width: 960px;}
-}
-
-@media (max-width: 978px) {
-body { margin: auto; width: 95%;  max-width: 960px;}
-	}
-
-/*Font Scaling*/
 
 @media all and (min-width: 960px) {
 h2{
