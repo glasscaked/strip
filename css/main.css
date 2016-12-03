@@ -10,20 +10,8 @@ a:hover { text-decoration: underline; }
 }
 
 @media (max-width: 978px) {
-	.container {
-	 padding:0;
-	 margin:0;
+body { margin: auto; width: 50%;  max-width: 960px;}
 	}
-      
-    body {
-     padding:0;
-    }
-  
-  	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-      margin-left: 0;
-      margin-right: 0;
-  	  margin-bottom:0;
-  	}
 }
 
 /*Fonts*/
