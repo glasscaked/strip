@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Testing my blog, again"
-date: 29-11-2014
+date: 29-11-2016
 ---
 
-Old post tbh
+This is a test.
