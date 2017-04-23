@@ -5,12 +5,27 @@ title: Gallery | James Cunningham
 
 	<div class="Gallery">		
 					<h1>Gallery</h1>
-			<address>
-					<strong>Gallery is gonna be here.</a><br>
-				<br>
-					I swear on me mum, fam.<br>
-								
-
-			
-
+		<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+			<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+		<div id="links">
+    <a href="images/banana.jpg" title="Profile">
+        <img src="images/thumbnails/profile.jpg" alt="Profile">
+    </a>
+    <a href="images/apple.jpg" title="Twitter">
+        <img src="images/thumbnails/twitter.jpg" alt="Twitter">
+    </a>
+    <a href="images/orange.jpg" title="Instagram">
+        <img src="images/thumbnails/instagram.jpg" alt="Instagram">
+    </a>
+</div>
+		<script src="js/blueimp-gallery.min.js"></script>
 	</div>
