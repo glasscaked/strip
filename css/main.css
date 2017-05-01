@@ -83,3 +83,43 @@ ul.posts li { list-style: none; }
 .contact address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .contact address, .cv p { font-size: 1.2em; }
 .contact .download { float: right; font-size: .8em; text-transform: uppercase; }
+
+/* Gallery */
+#gallery {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  border: 2px solid #003C72;
+}
+
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+#navigation li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+}
+
+#navigation li a img {
+  display: block;
+  border: none;
+}
+
+#navigation li a {
+  display: block;
+}
+
+#full-picture {
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
+}
