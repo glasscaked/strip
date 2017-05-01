@@ -86,7 +86,9 @@ ul.posts li { list-style: none; }
 
 /* Gallery */
 #gallery {
-  width: 600px;
+  max-width: 600px;
+  width: 600px
+  height: auto;
   overflow: hidden;
   position: relative;
   z-index: 1;
