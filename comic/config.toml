@@ -1,0 +1,35 @@
+
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+staticDir = "static"
+buildDrafts = false
+baseURL = "https://comic-cms.netlify.com/"
+canonifyURLs = true
+title = "Webcomic CMS"
+sectionPagesMenu = "main"
+paginate = 10
+paginatePath = "archive"
+theme = "webcomic"
+
+[outputs]
+  section = ["HTML", "JSON", "RSS"]
+  taxonomy = ["HTML", "json"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  character = "characters"
+
+[params]
+  subtitle = "a webcomic site"
+  author = "Site Author"
+
+[menu]
+  [[menu.main]]
+  name = "Characters"
+  url = "/characters/"
+
+  [[menu.main]]
+  name = "About"
+  url = "/about/"
