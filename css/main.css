@@ -6,8 +6,8 @@ a:hover { text-decoration: underline; }
 body { margin: auto; width: 50%;  max-width: 1080px;}
 }
 
-@media (max-width: 978px) {
-body { margin: auto; width: 95%;  max-width: 960px;}
+@media (max-width: 1080px) {
+body { margin: auto; width: 95%;  max-width: 1080px;}
 }
 
 /*Font Scaling*/
