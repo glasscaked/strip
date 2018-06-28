@@ -17,18 +17,18 @@ title: Comic
 {% endfor %}
   {% if paginator.total_pages > 1 %}  
 <div class="pagination">  
+      {% if paginator.next_page %}  
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>  
+  {% else %}  
+    <span>Prev &raquo;</span>  
+  {% endif %}  
   {% if paginator.previous_page %}  
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>  
   {% else %}  
-    <span>&laquo; Prev</span>  
+    <span>&laquo; Next</span>  
   {% endif %}  
   
-  
-  {% if paginator.next_page %}  
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>  
-  {% else %}  
-    <span>Next &raquo;</span>  
-  {% endif %}  
+ 
 </div>  
 {% endif %}  
         </p></div>
