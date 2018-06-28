@@ -14,7 +14,7 @@ title: Comic
 {% endfor %}
   {% if paginator.total_pages > 1 %}  
 <div class="pagination">  
-    {% if paginator.next_page %}  
+    {% if paginator.previous_page %}  
         <a href="https://glasscaked.github.io/strip/comic/">First</a> 
      {% else %}  
     <span>First</span>  
@@ -29,7 +29,7 @@ title: Comic
   {% else %}  
     <span>Next</span>  
   {% endif %}  
-{% if paginator.previous_page %}  
+{% if paginator.next_page %}  
     <a href="https://glasscaked.github.io/strip/comic/page4">Latest</a> 
      {% else %}  
     <span>Latest</span> 
