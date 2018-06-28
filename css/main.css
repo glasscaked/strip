@@ -1,15 +1,6 @@
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-/*Mobile Scaling*/
-@media (min-width: 978px) {
-body { margin: auto; width: 100%;  max-width: 1080px; user-scalable=yes}
-}
-
-@media (max-width: 1080px) {
-body { margin: auto; width: 100%;  max-width: 1080px;  user-scalable=yes}
-}
-
 /*Font Scaling*/
 /*h1*/
 @media all and (min-width: 960px) {
