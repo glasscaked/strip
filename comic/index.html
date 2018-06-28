@@ -14,22 +14,24 @@ title: Comic
         </p>
     <div style="text-align:center">
 <p>
-{% if paginator.total_pages > 1 %}
-<ul>
-  {% if paginator.previous_page %}
-  <li>
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li>
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+{% endfor %}
+  {% if paginator.total_pages > 1 %}  
+<div class="pagination">  
+  {% if paginator.previous_page %}  
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>  
+  {% else %}  
+    <span>&laquo; Prev</span>  
+  {% endif %}  
+  
+  
+  {% if paginator.next_page %}  
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>  
+  {% else %}  
+    <span>Next &raquo;</span>  
+  {% endif %}  
+</div>  
+{% endif %}  
         </p></div>
-    
   
     
 </ul>
