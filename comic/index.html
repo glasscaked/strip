@@ -1,7 +1,6 @@
 ---
-layout: page
-pagination: 
-  enabled: true
+layout: default
+title: Comic
 ---
 <h1>Comic</h1>
 <ul class="posts">
@@ -15,7 +14,6 @@ pagination:
         </p>
     <div style="text-align:center">
 <p>
-    {% endfor %}
 {% if paginator.total_pages > 1 %}
 <ul>
   {% if paginator.previous_page %}
@@ -33,4 +31,5 @@ pagination:
         </p></div>
     
   
- </ul>
+    
+</ul>
