@@ -1,5 +1,5 @@
 name: James Cunningham, GlassCake
- markdown: kramdown
- permalink: /comic/:year/:month/:day/:title
+markdown: kramdown
+permalink: /comic/:year/:month/:day/:title
 paginate: 1
- paginate_path: "/comic/page:num/"
+paginate_path: "/comic/page:num/"
