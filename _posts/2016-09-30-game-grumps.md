@@ -4,5 +4,5 @@ title: "Chapter 1"
 date: 2016-09-30
 ---
 
- <a href="/strip/images/1.jpg"><div id="cmc-container"><img src="/strip/images/1.jpg" class="center" style="width:100%;max-width:100%px"></div></a>
+ <div id="cmc-container"><a href="/strip/images/1.jpg"><img src="/strip/images/1.jpg" class="center" style="width:100%;max-width:100%px"></a></div>
  
