@@ -6,13 +6,13 @@ title: Blog | James Cunningham
 <ul class="posts">
 
 {% for post in paginator.posts %}
-    <font size="6"><h1><a href="{{ post.url }}">{{ post.title }}</a></h1></font>
-        <p class="author">
-            <span class="date">{{ post.date }}</span>
-        </p>
     <div class="content">
         {{ post.content }}
     </div>
+   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="author">
+            <span class="date">{{ post.date }}</span>
+        </p>
 {% endfor %}
   {% if paginator.total_pages > 1 %}  
 <div class="pagination">  
