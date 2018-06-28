@@ -3,7 +3,7 @@ a:hover { text-decoration: underline; }
 
 /*Mobile Scaling*/
 @media (min-width: 978px) {
-body { margin: auto; width: 50%;  max-width: 960px;}
+body { margin: auto; width: 50%;  max-width: 1080px;}
 }
 
 @media (max-width: 978px) {
