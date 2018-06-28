@@ -10,7 +10,7 @@ title: Comic
         {{ post.content }}
     </div>
         <p class="author">
-            <span class="date">{{ post.date }}</span>
+            <span class="date">{{ post.date | date_to_string }}</span>
         </p>
 {% endfor %}
   {% if paginator.total_pages > 1 %}  
