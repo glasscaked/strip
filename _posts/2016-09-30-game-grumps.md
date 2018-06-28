@@ -5,3 +5,18 @@ date: 2016-09-30
 ---
 
  <div id="cmc-container"><img src="/strip/images/1.jpg" class="center" style="width:100%;max-width:100%px"></div> 
+ 
+ 
+.img:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+
+}
