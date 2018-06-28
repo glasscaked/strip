@@ -12,6 +12,8 @@ title: Comic
         <p class="author">
             <span class="date">{{ post.date | date_to_string }}</span>
         </p>
+    <div style="text-align:center">This text will be centered.
+<p>
 {% endfor %}
   {% if paginator.total_pages > 1 %}  
 <div class="pagination">  
@@ -29,6 +31,7 @@ title: Comic
   {% endif %}  
 </div>  
 {% endif %}  
+        </p></div>
   
     
 </ul>
