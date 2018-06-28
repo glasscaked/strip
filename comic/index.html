@@ -12,25 +12,25 @@ title: Comic
     <div style="text-align:center">
 <p>
 {% endfor %}
-  {% if paginator.total_pages > 1 %}  
+ {% if paginator.total_pages > 1 %}  
 <div class="pagination">  
     {% if paginator.next_page %}  
-        <a href="https://glasscaked.github.io/strip/comic/page4/">First</a> 
+        <a href="https://glasscaked.github.io/strip/comic/">First</a> 
      {% else %}  
     <span>First</span>  
      {% endif %}  
-  {% if paginator.next_page %}  
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>  
+{% if paginator.previous_page %}  
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>  
   {% else %}  
     <span>Prev</span>  
-  {% endif %}  
-  {% if paginator.previous_page %}  
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>  
+   {% endif %}  
+{% if paginator.next_page %}  
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>  
   {% else %}  
     <span>Next</span>  
-   {% endif %}  
+  {% endif %} 
 {% if paginator.previous_page %}  
-    <a href="https://glasscaked.github.io/strip/comic/">Latest</a> 
+    <a href="https://glasscaked.github.io/strip/comic/page4">Latest</a> 
      {% else %}  
     <span>Latest</span> 
   {% endif %}  
