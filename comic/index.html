@@ -14,11 +14,13 @@ title: Comic
         </p>
     <div style="text-align:center">
 <p>
-    <a href="https://glasscaked.github.io/strip/comic/page4/">First</a> 
 {% endfor %}
   {% if paginator.total_pages > 1 %}  
 <div class="pagination">  
       {% if paginator.next_page %}  
+    <a href="https://glasscaked.github.io/strip/comic/page4/">First</a> 
+     {% else %}  
+    <span>First</span>  
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>  
   {% else %}  
     <span>Prev</span>  
@@ -27,8 +29,11 @@ title: Comic
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>  
   {% else %}  
     <span>Next</span>  
-  {% endif %}  
     <a href="https://glasscaked.github.io/strip/comic/">Latest</a> 
+     {% else %}  
+    <span>Latest</span> 
+  {% endif %}  
+  
   
  
 </div>  
