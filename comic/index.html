@@ -6,6 +6,7 @@ title: Comic
 <ul class="posts">
 
 {% for post in paginator.posts %}
+        <div class="content">
 //Above Nav
     <p>
 {% endfor %}
@@ -38,7 +39,6 @@ title: Comic
 {% endif %}  
         </p></div>
 //End
-    <div class="content">
         {{ post.content }}
     </div>
     <div style="text-align:center">
