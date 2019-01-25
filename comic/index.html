@@ -4,7 +4,10 @@ title: Comic
 ---
 <ul class="posts">
 
-{% for post in paginator.posts %}
+{% for post in paginator.posts %}            
+    <div class="content">
+        {{ post.content }}
+    </div>
     <div style="text-align:center">
 <p>
 {% endfor %}
@@ -34,9 +37,6 @@ title: Comic
     <span>Latest</span> 
   {% endif %}  
 </div>  
-            <div class="content">
-        {{ post.content }}
-    </div>
 {% endif %}  
         </p></div>
 </ul>
