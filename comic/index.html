@@ -5,6 +5,7 @@ title: Comic
 <ul class="posts">
 <div style="text-align:center">
 <p>
+ {% for post in paginator.posts %}
 {% endfor %}
   {% if paginator.total_pages > 1 %}  
 <div class="pagination">  
@@ -34,7 +35,6 @@ title: Comic
 </div>  
 {% endif %}  
         </p></div>
-{% for post in paginator.posts %}
     <div class="content">
         {{ post.content }}
     </div>
