@@ -9,7 +9,7 @@ title: Comic
         {{ post.content }}
     </div>
     <div style="text-align:center">
-
+			<center><p>
 {% endfor %}
   {% if paginator.total_pages > 1 %}  
 <div class="pagination">  
@@ -36,7 +36,10 @@ title: Comic
      {% else %}  
     <span>Latest</span> 
   {% endif %}  
+    
 </div>  
+                </em></p></center>
+
 {% endif %}  
         </p></div>
 </ul>
