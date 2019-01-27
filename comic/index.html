@@ -4,7 +4,32 @@ title: Comic
 ---
 <ul class="posts">
 
-{% for post in paginator.posts %}            
+{% for post in paginator.posts %}    
+{% if paginator.total_pages > 1 %}  
+<div class="pagination">  
+    {% if paginator.previous_page %}  
+      <a href="https://glasscaked.github.io/strip/comic/">First</a> 
+     {% else %}  
+    <span>First</span>  
+     {% endif %}  
+    |
+   {% if paginator.previous_page %}  
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>  
+  {% else %}  
+    <span>Prev</span>  
+   {% endif %}  
+    |
+  {% if paginator.next_page %}  
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>  
+  {% else %}  
+    <span>Next</span>  
+  {% endif %}  
+    |
+{% if paginator.next_page %}  
+    <a href="https://glasscaked.github.io/strip/comic/page5">Latest</a> 
+     {% else %}  
+    <span>Latest</span> 
+  {% endif %}  
     <div class="content">
         {{ post.content }}
     </div>
