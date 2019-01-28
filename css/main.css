@@ -82,10 +82,8 @@ html,body        {height:100%;}
 .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
 
 /* Blog */
-ul.posts { margin: 0px auto 0px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
-ul.posts { text-align: center }
-ul.posts {horizontal-align:middle;}
+ul.posts { margin: 0px auto 0px; font-size: 1.5em; text-align:center; }
+ul.posts li { list-style: none; display:inline-block;}
 
 /* Contact */
 .contact { margin: 0px 0px 60px; }
