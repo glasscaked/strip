@@ -3,11 +3,11 @@ a:hover { text-decoration: underline; }
 
 /*Page Scaling*/
 @media (min-width: 978px) {
-body {  text-align: center; margin: auto; width: 70%;  max-width: 960px;}
+body { margin: auto; width: 70%;  max-width: 960px;}
 }
 
 @media (max-width: 978px) {
-body {  text-align: center; margin: auto; width: 95%;  max-width: 960px;}
+body { margin: auto; width: 95%;  max-width: 960px;}
 }
 
 /*Font Scaling*/
