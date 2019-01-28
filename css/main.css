@@ -1,16 +1,6 @@
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-/*Content Wrapper*/
-body { width: 100%; margin: 0; padding: 0; overflow: hidden; 
-}
-
-#content_wrapper { clear: left; float: left; position: relative; left: 50%; 
-}
-
-#container_wrapper { display: block; float: left; position: relative; right: 50%; 
-}
-
 /*Page Scaling*/
 @media (min-width: 978px) {
 body { margin: auto; width: 70%;  max-width: 960px;}
