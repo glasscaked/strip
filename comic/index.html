@@ -2,6 +2,7 @@
 layout: default
 title: Comic
 ---
+<div class="content">
 <ul class="posts">
 
 {% for post in paginator.posts %}            
@@ -39,3 +40,12 @@ title: Comic
 {% endif %}  
         </p></div>
 </ul>
+</div>
+.content
+{
+ text-align: center;
+}
+.inner
+{
+ display:inline-block;
+}
