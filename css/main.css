@@ -84,6 +84,8 @@ html,body        {height:100%;}
 /* Blog */
 ul.posts { margin: 0px auto 0px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
+ul.posts { text-align: center }
+ul.posts {horizontal-align:middle;}
 
 /* Contact */
 .contact { margin: 0px 0px 60px; }
